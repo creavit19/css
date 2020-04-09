@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "StylusBT";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/StylusBT/StylusBT.eot?#iefix") format("embedded-opentype"), 
+  url("../fonts/StylusBT/StylusBT.woff") format("woff"),
+  url("../fonts/StylusBT/StylusBT.ttf") format("truetype"); 
+  }
+@font-face {
+  font-family: "Jokerman";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Jokerman/Jokerman.eot?#iefix") format("embedded-opentype"), 
+  url("../fonts/Jokerman/Jokerman.woff") format("woff"),
+  url("../fonts/Jokerman/Jokerman.ttf") format("truetype"); 
+  }
+@font-face {
+  font-family: "Algerian";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Algerian/Algerian.eot?#iefix") format("embedded-opentype"), 
+  url("../fonts/Algerian/Algerian.woff") format("woff"),
+  url("../fonts/Algerian/Algerian.ttf") format("truetype"); 
+  }
+@font-face {
+  font-family: "SegoePrint";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SegoePrint/SegoePrint.eot?#iefix") format("embedded-opentype"), 
+  url("../fonts/SegoePrint/SegoePrint.woff") format("woff"),
+  url("../fonts/SegoePrint/SegoePrint.ttf") format("truetype"); 
+  }
