@@ -1,9 +1,24 @@
-html{
+body{
 	font-family: arial;
 	font-size: 16px;
 	color:#909090;
 }
+h1{
+	font-size: 35px;
+}
+a{
+	color:#C4C4C4;
+}
+a:hover, a.active{
+	color:#fff;
+}
 header{
 	font-family: Arial;
 	background-color: #1B5589;
+}
+header .logo{
+	font-size: 30px;
+}
+main h1{
+	background-color: #00FFA9;
 }
