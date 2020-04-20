@@ -1,10 +1,23 @@
-body{
-	font-family: arial;
+html{
+	font-family: Arial;
 	font-size: 16px;
-	color:#909090;
+	
+}
+body{
+	color:#444444;
+	font-family: Arial;
 }
 h1{
-	font-size: 35px;
+	font-size: 2em;
+	font-weight: normal;
+}
+h2{
+	font-size: 1.7em;
+	font-weight: normal;
+}
+h3{
+	font-size: 1.3em;
+	font-weight: bold;
 }
 a{
 	color:#C4C4C4;
@@ -13,12 +26,90 @@ a:hover, a.active{
 	color:#fff;
 }
 header{
-	font-family: Arial;
 	background-color: #1B5589;
 }
 header .logo{
-	font-size: 30px;
+	font-size: 2em;
 }
-main h1{
-	background-color: #00FFA9;
+main h1, main h2{
+	margin: .5em 0;
+}
+.wtime{
+	font-size: .9em;
+	color:#646464;
+}
+.pl-one{
+	padding-right:1em;
+	margin-bottom:2em;
+	background-image: url(../img/badge.png);
+	background-position: 17em -0.2em;
+	background-repeat: no-repeat;
+	background-size: 2em;
+}
+.pl-one .plbold{
+	color:#000;
+	font-weight: bold;
+}
+.polabel, .podate{
+	position: absolute;
+	padding: 0 .5em;
+	top:0em;
+	border:1pt solid #cacdd0;
+}
+.polabel:after, .podate:after{
+	position:absolute;
+	top:.2em;
+	content:"";
+	width:1.15em;
+	height:1.15em;
+	border:1pt solid #cacdd0;
+	transform: rotate(45deg);
+}
+.pl-one:nth-child(odd) .polabel, .pl-one:nth-child(even) .podate{
+	left:20.5em;
+	border-left:none;
+}
+.pl-one:nth-child(even) .polabel, .pl-one:nth-child(odd) .podate{
+	right:19.5em;
+	border-right:none;
+}
+.pl-one:nth-child(odd) .polabel:after, .pl-one:nth-child(even) .podate:after{
+	left:-0.6em;
+	border-top:none;
+	border-right:none;
+}
+.pl-one:nth-child(even) .polabel:after, .pl-one:nth-child(odd) .podate:after{
+	right:-0.6em;
+	border-bottom:none;
+	border-left:none;
+}
+.podate span{
+	font-size: 0.9em;
+}
+.round{
+	width:1.3em;
+	height:1.3em;
+	border-radius:50%;
+	border:.5pt solid #cacdd0;
+}
+.legend{
+	position: absolute;
+	top:.7em;
+	right:1em;
+}
+.btn img{
+	height: 1em;
+	padding-right:.5em;
+}
+.my-bg-cur{
+	background-color: #d0d0d0;
+}
+.my-bg-rew{
+	background-color: #6fd084;
+}
+.my-bg-urew{
+	background-color: #37b0c1;
+}
+.my-bg-ovr{
+	background-color: #f98691;
 }
